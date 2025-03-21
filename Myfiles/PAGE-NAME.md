@@ -1,3 +1,3 @@
 layout: page
 title: "Test page"
-permalink: /URL-PATH
+permalink: https://marianadesamadsen.github.io/test
