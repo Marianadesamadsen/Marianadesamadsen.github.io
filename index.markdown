@@ -9,10 +9,13 @@ title: 'Assignment 2: Where and when to get drunk in San Francisco?'
 Data Description:
 This is the description for the assignment
 
+What day of the week will you find your drunk friends in San Fransico? 
+<iframe src="my_bokeh_plot.html" width="150%" height="420" frameborder="0"></iframe>
 
-Calender plot:
+What days of the year will your friends be drunk in San Fransico? 
 <img src="Calender.png" width="100%" style="display: block; margin: auto;" />
 
-Bokeh plot:
-<iframe src="my_bokeh_plot.html" width="70%" height="400" frameborder="0"></iframe>
+What district in San Fransico will you find your lost drunk friend in San Fransico? 
+
+
 
