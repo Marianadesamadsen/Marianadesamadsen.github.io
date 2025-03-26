@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+title: 'Assignment 2: Where to drunk?'
 ---
-link to test page
-[test](/PAGE-NAME/)  
+This is the description for the assignment
