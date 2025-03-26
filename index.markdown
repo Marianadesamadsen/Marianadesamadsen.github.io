@@ -14,5 +14,5 @@ Calender plot:
 <img src="Calender.png" width="100%" style="display: block; margin: auto;" />
 
 Bokeh plot:
-<iframe src="my_bokeh_plot.html" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="my_bokeh_plot.html" width="70%" height="400" frameborder="0"></iframe>
 
