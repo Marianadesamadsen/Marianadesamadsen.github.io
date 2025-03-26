@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: 'Assignment 2: Where to get drunk?'
+title: 'Assignment 2: Where and when to get drunk in San Francisco?'
 ---
 This is the description for the assignment
