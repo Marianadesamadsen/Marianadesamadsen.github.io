@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Social data analysis, group 40
+title: Social data analysis (02806), group 40
 email: s201205@student.dtu.dk s204206@student.dtu.dk s204226@student.dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
   This website aims to answer the question: Where in San fransico, what day of the week and what month of the year should I be if I want to be with drunk people?
