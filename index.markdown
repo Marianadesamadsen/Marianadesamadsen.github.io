@@ -4,3 +4,5 @@
 
 layout: home
 ---
+link to test page
+[test](/PAGE-NAME/)  
