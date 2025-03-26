@@ -14,5 +14,5 @@ Calender plot:
 <iframe src="calender_drunkenness_plot.html" width="100%" height="200" frameborder="0"></iframe>
 
 Bokeh plot:
-<iframe src="my_bokeh_plot.html" width="100%" height="200" frameborder="0"></iframe>
+<iframe src="my_bokeh_plot.html" width="100%" height="600" frameborder="0"></iframe>
 
