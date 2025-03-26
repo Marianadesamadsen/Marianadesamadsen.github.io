@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: 'Assignment 2: Where and when to get drunk in San Francisco?'
+title: 'Assignment 2: Where and when to get find you drunk friend in San Francisco?'
 ---
 
 Data Description:
