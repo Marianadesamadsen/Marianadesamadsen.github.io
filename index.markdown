@@ -11,5 +11,5 @@ This is the description for the assignment
 
 
 Calender plot:
-<iframe src="/calender_drunkenness_plot.html" width="100%" height="600" frameborder="0"></iframe>
+<iframe src="calender_drunkenness_plot.html" width="100%" height="600" frameborder="0"></iframe>
 
