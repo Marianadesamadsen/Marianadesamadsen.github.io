@@ -13,7 +13,7 @@ What day of the week will you find your drunk friend in San Fransico?
 <iframe src="my_bokeh_plot.html" width="150%" height="420" frameborder="0"></iframe>
 
 What days of the year will your friend be drunk in San Fransico? 
-<img src="Calender.png" width="100%" style="display: block; margin: auto;" />
+<img src="Calender.png" width="150%" style="display: block; margin: auto;" />
 
 What district in San Fransico will you find your lost drunk friend in San Fransico? 
 
