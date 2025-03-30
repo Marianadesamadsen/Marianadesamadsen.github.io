@@ -13,7 +13,7 @@ What day of the week will you find your drunk friend in San Fransico?
 <div style="text-align: center;">
   <iframe src="my_bokeh_plot.html" width="150%" height="420" frameborder="0"></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
-    Figure 1: Most likely day of the week to find your drunk friend in San Francisco, based on aggregated event data.
+    Figure 1: The most likely times of the day throughout the week to find your drunk friend in San Francisco based on aggregated event data. Further, one can interactivelt choose specific time intervals.
   </p>
 </div>
 
