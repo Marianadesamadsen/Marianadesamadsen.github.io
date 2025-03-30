@@ -3,11 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: 'Assignment 2: Where and when to find your drunk friend in San Francisco?'
+title: 'Assignment 2: The San Fransisco crime crawl – Where Data Meets Drama?'
 ---
 
 Data Description:
-This is the description for the assignment
+San Francisco [Police Department Incident Reports](https://data.sfgov.org/browse?category=Public+Safety&sortBy=relevance&page=1&pageSize=20), covering incidents from 2003 to present. The data was loaded on **06/02/2025**, making this the cutoff date. However, we have only used data from **2003–2024** to ensure full-year coverage. 
 
 What day of the week will you find your drunk friend in San Fransico? 
 <div style="text-align: center;">
