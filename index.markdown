@@ -32,10 +32,10 @@ What district in San Fransico will you find your lost drunk friend in San Fransi
 <div style="text-align: center; margin-top: 30px;">
   <img src="crime_map.png" width="150%" />
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
-    Figure 3: Normalization of arrests in districts of San Francisco, based on crime density.
+    Figure 3: Distribution of normalized assault, robbery, and weapon law incidents occurring on friday and saturday nights in San Francisco, based on reported data from 2003 to 2024.
   </p>
 </div>
-We notice here that the southern district has the biggest density of arrests for drunkeness. Even though most of the bars in san fransico are placed in the central district, the southern district still shines in terms of arrests for drunkeness.
+We notice on the map of the crime data distribution that most of the reported arrests for our focused crime types happens in the southern district.
 
 
 
