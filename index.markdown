@@ -10,14 +10,14 @@ Data Description:
 This is the description for the assignment
 
 What day of the week will you find your drunk friend in San Fransico? 
-<iframe src="my_bokeh_plot.html" width="150%" height="420" frameborder="0"></iframe>
+<div style="text-align: center;">
+  <iframe src="my_bokeh_plot.html" width="100%" height="420" frameborder="0"></iframe>
+  <p style="font-style: italic; font-size: 0.9em; color: gray;">
+    Figure 3: Most likely day of the week to find your drunk friend in San Francisco, based on aggregated event data.
+  </p>
+</div>
 
 What days of the year will your friend be drunk in San Fransico? 
-<img src="Calender.png" width="150%" style="display: block; margin: auto;" />
-
-What district in San Fransico will you find your lost drunk friend in San Fransico?
-<img src="crime_map.png" width="150%" style="display: block; margin: auto;" />
-
 <!-- Calendar Figure -->
 <div style="text-align: center;">
   <img src="Calender.png" width="80%" />
@@ -26,6 +26,8 @@ What district in San Fransico will you find your lost drunk friend in San Fransi
   </p>
 </div>
 
+
+What district in San Fransico will you find your lost drunk friend in San Fransico?
 <!-- Crime Map Figure -->
 <div style="text-align: center; margin-top: 30px;">
   <img src="crime_map.png" width="80%" />
