@@ -7,12 +7,12 @@ title: 'Assignment 2: The San Fransisco crime crawl – Where Data Meets Drama?'
 ---
 
 # Data Description:
-
-The dataset, sourced from the San Francisco Police Department Incident Reports, includes reported incidents spanning from 2003 to the present. For this analysis, the data was accessed on June 2, 2025, which serves as the cutoff date. To ensure consistency and complete annual coverage, we focus exclusively on data from 2003 to 2024. Our study centers on three key crime categories: Robbery, Assault, and Weapon Law Violations, which will be known to be highly correlated.
+In this one-pager, we explore distinct temporal patterns in crimes across San Francisco — focusing on Robbery, Assault, and Weapon Law crimes. What if the timing of these crimes could tell us more than the crimes themselves?
+To support this exploration, the dataset used in this analysis consists of reported crime incidents in San Fransisco from 2003 till present and is sourced from the [San Fransisco Police Department Incident Reports](https://data.sfgov.org/browse?category=Public+Safety&sortBy=relevance&page=1&pageSize=20). The data was accessed on June 2, 2025, which serves as the cutoff date. To ensure consistency and complete annual coverage, we focus exclusively on data from 2003 to 2024.  
 
 # Are These Crimes Partners in Crime?
 
-The figure below presents three scatter plots showing the temporal relationships between Robbery, Assault, and Weapon Law Violations over the 168 hours of a standard week (7 days × 24 hours). Each point represents the number of reported incidents during a specific hour, providing a visual comparison of how these crime types vary—and potentially align—over the hours of the week.
+The figure below presents three scatter plots showing the temporal relationships between Robbery, Assault, and Weapon Law crimes over the 168 hours of a standard week (7 days × 24 hours). Each point represents the number of reported incidents during a specific hour ($crime_1$, $crime_2$), providing a visual comparison of how these crime types vary and potentially align over the hours of the week.
 <!-- Calendar Figure -->
 <div style="text-align: center;">
   <img src="Calender.png" width="150%" />
@@ -20,7 +20,7 @@ The figure below presents three scatter plots showing the temporal relationships
     Figure 2: The subplots show highly correlated data. Each data set are temporal .
   </p>
 </div>
-There is a strong correlation between all the selected crime types. The $R^2$ values indicates positive correlation, meaning  
+There is a strong correlation between all the selected crime types. The R&sup2; values indicates positive correlation, meaning  
 
 
 supporting the assumption that they can be reasonably combined into a single category. 
@@ -42,7 +42,7 @@ supporting the assumption that they can be reasonably combined into a single cat
     Figure 3: Distribution of normalized assault, robbery, and weapon law incidents occurring on friday and saturday nights in San Francisco, based on reported data from 2003 to 2024.
   </p>
 </div>
-We notice on the map of the crime data distribution that most of the reported arrests for our focused crime types happens in the southern district.
+We notice on the map of the crime data distribution that most of the reported arrests for our focused crime types happens in the Mission district.
 
 
 
