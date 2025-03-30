@@ -10,7 +10,7 @@ Data Description:
 
 The dataset, sourced from the San Francisco Police Department Incident Reports, includes reported incidents spanning from 2003 to the present. For this analysis, the data was accessed on June 2, 2025, which serves as the cutoff date. To ensure consistency and complete annual coverage, we focus exclusively on data from 2003 to 2024. Our study centers on three key crime categories: Robbery, Assault, and Weapon Law Violations, which will be known to be highly correlated.
 
-A deeper look into the correlation between the focues crimes Robery, Assault, and Weapon laws? 
+# A deeper look into the correlation between the focues crimes Robery, Assault, and Weapon laws? 
 
 The figure below presents three scatter plots showing the temporal relationships between Robbery, Assault, and Weapon Law Violations over the 168 hours of a standard week (7 days × 24 hours). Each point represents the number of reported incidents during a specific hour, providing a visual comparison of how these crime types vary—and potentially align—over the hours of the week.
 <!-- Calendar Figure -->
@@ -26,7 +26,7 @@ There is a strong correlation between all the selected crime types. The $R^2$ va
 supporting the assumption that they can be reasonably combined into a single category. 
 
 
-What time of the day through out the week should ? 
+# What time of the day through out the week should ? 
 <div style="text-align: center;">
   <iframe src="my_bokeh_plot.html" width="150%" height="420" frameborder="0"></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
@@ -34,7 +34,7 @@ What time of the day through out the week should ?
   </p>
 </div>
 
-What district in San Fransico will you find your lost drunk friend in San Fransico?
+# What district in San Fransico is most unsafe on weekend nights?
 <!-- Crime Map Figure -->
 <div style="text-align: center; margin-top: 30px;">
   <img src="crime_map.png" width="150%" />
