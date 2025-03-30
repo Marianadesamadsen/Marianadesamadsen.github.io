@@ -6,7 +6,7 @@ layout: home
 title: 'Assignment 2: The San Fransisco crime crawl – Where Data Meets Drama?'
 ---
 
-Data Description:
+# Data Description:
 
 The dataset, sourced from the San Francisco Police Department Incident Reports, includes reported incidents spanning from 2003 to the present. For this analysis, the data was accessed on June 2, 2025, which serves as the cutoff date. To ensure consistency and complete annual coverage, we focus exclusively on data from 2003 to 2024. Our study centers on three key crime categories: Robbery, Assault, and Weapon Law Violations, which will be known to be highly correlated.
 
