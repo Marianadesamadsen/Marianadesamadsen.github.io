@@ -32,9 +32,10 @@ What district in San Fransico will you find your lost drunk friend in San Fransi
 <div style="text-align: center; margin-top: 30px;">
   <img src="crime_map.png" width="150%" />
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
-    Figure 3: Likely districts in San Francisco where your lost drunk friend might be found, based on crime density.
+    Figure 3: Normalization of arrests in districts of San Francisco, based on crime density.
   </p>
 </div>
+We notice here that the southern district has the biggest density of arrests for drunkeness.
 
 
 
