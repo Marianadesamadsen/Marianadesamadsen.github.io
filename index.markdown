@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: 'Assignment 2: The San Fransisco crime crawl – Where Data Meets Drama?'
+title: 'Assignment 2: 
+title: The San Fransisco crime crawl – Where Data Meets Drama!'
 ---
 
 # Data Description:
@@ -12,7 +13,7 @@ To support this exploration, the dataset used in this analysis consists of repor
 
 # Are These Crimes Partners in Crime?
 
-The figure below presents three scatter plots showing the temporal relationships between Robbery, Assault, and Weapon Law crimes over the 168 hours of a standard week (7 days × 24 hours). Each point represents the number of reported incidents during a specific hour ($crime_1$, $crime_2$), providing a visual comparison of how these crime types vary and potentially align over the hours of the week.
+The figure below presents three scatter plots showing the temporal relationships between Robbery, Assault, and Weapon Law crimes over the 168 hours of a standard week (7 days × 24 hours). Each point represents the number of reported incidents during a specific hour ($crime_1$, $crime_2$), providing a visual comparison of how these crime types vary and potentially align over the hours of the week. A colorbar 
 <!-- Calendar Figure -->
 <div style="text-align: center;">
   <img src="Calender.png" width="150%" />
