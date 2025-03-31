@@ -6,24 +6,23 @@ layout: home
 title: 'Assignment 2: The San Fransisco crime crawl – Where Data Meets Drama!'
 ---
 
-# Data Description:
+# Suspect: The Dataset
 In this one-pager, we explore distinct temporal patterns in crimes across San Francisco — focusing on Robbery, Assault, and Weapon Law crimes. What if the timing of these crimes could tell us more than the crimes themselves?
 To support this exploration, the dataset used in this analysis consists of reported crime incidents in San Fransisco from 2003 till present and is sourced from the [San Fransisco Police Department Incident Reports](https://data.sfgov.org/browse?category=Public+Safety&sortBy=relevance&page=1&pageSize=20). The data was accessed on June 2, 2025, which serves as the cutoff date. To ensure consistency and complete annual coverage, we focus exclusively on data from 2003 to 2024.  
 
 # Are These Crimes Partners in Crime?
 
-The figure below presents three scatter plots showing the temporal relationships between Robbery, Assault, and Weapon Law crimes over the 168 hours of a standard week (7 days × 24 hours). Each point represents the number of reported incidents during a specific hour ($crime_1$, $crime_2$), providing a visual comparison of how these crime types vary and potentially align over the hours of the week. A colorbar 
+The figure below presents three scatter plots showing the temporal relationships between Robbery, Assault, and Weapon Law crimes over the 168 hours of a standard week (7 days × 24 hours). Each point represents one hour during the week (for example, hour 150 is Sunday morning at 6 AM, shown as dark purple gradient). Therefore, each panel contains 168 scatterpoints, where the placement of the scatterpoint is determined by the count of crime 1 (x-axis) and the count of crime 2 (y-axis) during that hour. This provides a visual comparison of how these crime types vary and potentially align over the hours of the week.
 <!-- Calendar Figure -->
 <div style="text-align: center;">
   <img src="Calender.png" width="150%" />
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
-    Figure 2: The subplots show highly correlated data. Each data set are temporal .
+    Figure 2: The subplots show fairly correlated data between the crime categories Robbery, Assault and Weapon Law. Each scatterpoint represents an hour during the week (0-168) with a total of 168 scatterpoints in each subplot.
   </p>
 </div>
-There is a strong correlation between all the selected crime types. The R&sup2; values indicates positive correlation, meaning  
+The fairly strong positive correlations suggest these crimes often co-occur, potentially driven by shared social or environmental circumstances. The displayed R&sup2; values indicates positive correlation, meaning that when one type of crime increases, the second tends to increase too, and vice versa. Notably, crime intensity builds toward the weekend, indicating more incidents of assault, robbery and weapon law related crimes reported as the city’s tempo rises.
 
-
-supporting the assumption that they can be reasonably combined into a single category. 
+This visualization supports the assumption that the three crime categories are sufficiently correlated to be treated as a single combined category. However, even on weekends, there are quieter moments — likely in the early mornings — though these are harder to spot due to the limits of the color gradient. In the next visualization, we’ll use this grouping to further uncover how crime pulses through the rhythm of the week.
 
 
 # When Does the City Get Sketchy?
