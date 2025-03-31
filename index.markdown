@@ -34,7 +34,7 @@ This visualization supports the assumption that the three crime categories are s
 </div>
 
 # Which SF District Turns Into a Crime Scene After Dark?
-So you want to stay safe from violent crimes happening in san fransisco? We have constructed a heatmap that shows where most of the arrests for these violent crimetypes happens in san fransisco. We have filtered the data according to what we noticed in our previous plot that showed that these types of crimes usually happen on weekend nights between 20 am and 4 pm.
+So you want to stay safe from crimes and potentially getting your wallet robbed in San Fransisco? Best to stay at home! No don't worry, we have constructed a dynamic heatmap throughout the years (2003-2024) that shows where most of the reported incidents for these crimetypes occur in San Fransisco. Due to the insights from the previous visualization, the heatmap only considers weekend nights (Friday and Saturday) between 8 PM and 4 AM. 
 <!-- Interactive Crime Map Figure -->
 <div style="text-align: center; margin-top: 30px;">
   <iframe 
@@ -44,10 +44,10 @@ So you want to stay safe from violent crimes happening in san fransisco? We have
     frameborder="0"
   ></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
-    Figure 3: Distribution of normalized assault, robbery, and weapon law incidents occurring on Friday and Saturday nights in San Francisco, based on reported data from 2003 to 2024.
+    Figure 3: Distribution of aggregated Assault, Robbery, and Weapon law incidents occurring on Friday and Saturday nights (8 PM - 4 AM) in San Francisco, based on reported data from 2003 to 2024.
   </p>
 </div>
-We notice on the map of the crime data distribution that most of the reported arrests for our focused crime types happens in the Mission district and Southern District. The weekend nights dont differ much, only that criminals have a bit more time to commit violent crimes on saturday.
+So what does the heatmap show us? If you are willing to take the risk, the vibrant districts Mission and Southern is home to [dense nightlife and vibrant bars](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm), however also home to consistently the highest counts of assaults, robberies and weapon law crimes throughout the years. Meanwhile, Richmond and Sunset districts sleep soundly under a blanket of low crime, their suburban calm rarely disturbed and known for a (family friendly environment)[https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm]
 
 
 
