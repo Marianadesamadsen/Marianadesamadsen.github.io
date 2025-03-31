@@ -26,7 +26,7 @@ This visualization supports the assumption that the three crime categories are s
 
 
 # When Does the City Get Sketchy?
-Crime doesn’t sleep, and it definitely has a schedule. By plotting the frequency of robbery, assault, and weapon Law violations across all 168 hours in a week, we uncover timeframes where you could be more likely to run into trouble. In the interactive figure below, you can explore specific time slots, revealing when crimes happen most often. 
+Crime doesn’t sleep, and it definitely has a schedule. By plotting the frequency of Robbery, Assault, and Weapon Law crimes across all 168 hours in a week, we uncover timeframes where you could be more likely to run into trouble. In the interactive figure below, you can explore specific time slots, revealing when crimes happen most often. 
 
 <div style="text-align: center; max-width: 100%; margin: auto;">
   <iframe src="my_bokeh_plot.html" width="100%" height="320" frameborder="0"></iframe>
@@ -41,13 +41,13 @@ Late-night hours, especially from Friday evening through early Sunday morning, w
 So do you want to stay safe from crimes and potentially getting your wallet robbed in San Fransisco? Best to stay at home! No don't worry, we have constructed a dynamic heatmap throughout the years (2003-2024) that shows where most of the reported incidents for these crimetypes occur in San Fransisco. Due to the insights from the previous visualization, the heatmap only considers weekend nights (Friday and Saturday) between 8 PM and 4 AM. 
 <!-- Interactive Crime Map Figure -->
 <div style="text-align: center; max-width: 100%; margin: auto;">
-  <iframe src="crime_map_weekend.html" width="100%" height="320" frameborder="0" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+  <iframe src="crime_map_weekend.html" width="100%" height="550" frameborder="0" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
     Figure 3: Distribution of aggregated Assault, Robbery, and Weapon law incidents occurring on Friday and Saturday nights (8 PM - 4 AM) in San Francisco, based on reported data from 2003 to 2024.
   </p>
 </div>
 
-So what does the heatmap show us? If you are willing to take the risk, the vibrant districts Mission and Southern is home to [dense nightlife and vibrant bars](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm). However, also home to the consistently highest counts of assaults, robberies and weapon law crimes throughout the years. Meanwhile, Richmond and Sunset districts sleep soundly under a blanket of low crime, their suburban calm rarely disturbed and known for a [family friendly environment](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm)
+So what does the heatmap show us? If you are willing to take the risk, the vibrant districts Mission and Southern is home to [dense nightlife and vibrant bars](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm). However, also home to the consistently highest counts of assaults, robberies and weapon law crimes throughout the years. Meanwhile, Richmond and Sunset districts sleep soundly under a blanket of low crime, their suburban calm rarely disturbed and known for a [family friendly environment](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm).
 
 # Crime-clusion
 Our crime crawl through San Francisco uncovers a city where criminal activity peaks during prime nightlife hours. Robbery, Assault, and Weapon Law incidents aren’t just happening — they’re happening together, and they’re happening on a schedule. Late-night weekend hours, especially from Friday evening into early Sunday morning, emerge as a prime time for trouble, aligning with the city’s nightlife rhythm. 
