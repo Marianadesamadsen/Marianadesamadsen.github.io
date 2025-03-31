@@ -44,7 +44,7 @@ So do you want to stay safe from crimes and potentially getting your wallet robb
     width="100%" 
     height="800px" 
     frameborder="0"
-  > <iframe>
+  ><iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
     Figure 3: Distribution of aggregated Assault, Robbery, and Weapon law incidents occurring on Friday and Saturday nights (8 PM - 4 AM) in San Francisco, based on reported data from 2003 to 2024.
   </p>
