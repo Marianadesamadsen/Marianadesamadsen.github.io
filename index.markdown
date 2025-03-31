@@ -20,7 +20,7 @@ The figure below presents three scatter plots showing the temporal relationships
     Figure  1: The subplots show fairly correlated data between the crime categories Robbery, Assault and Weapon Law. Each scatterpoint represents an hour during the week (0-168) with a total of 168 scatterpoints in each subplot.
   </p>
 </div>
-The fairly strong positive correlations suggest these crimes often co-occur, potentially driven by shared social or environmental circumstances. The displayed R&sup2; values indicates positive correlation, meaning that when one type of crime increases, the second tends to increase too, and vice versa. Notably, crime intensity builds toward the weekend, indicating more incidents of assault, robbery and weapon law related crimes reported as the city’s tempo rises.
+The displayed R&sup2; values indicates positive correlation, meaning that when one type of crime increases, the second tends to increase too, and vice versa. The fairly strong positive correlations suggest these crimes often co-occur, potentially driven by shared social or environmental circumstances.  Notably, the crime frequencies peak toward the weekend, with increased reports of Assault, Robbery, and Weapon Law crimes as the city’s tempo rises.
 
 This visualization supports the assumption that the three crime categories are sufficiently correlated to be treated as a single combined category. However, even on weekends, there are quieter moments — likely in the early mornings — though these are harder to spot due to the limits of the color gradient. In the next visualization, we’ll use this grouping to further uncover how crime pulses through the rhythm of the week.
 
@@ -31,28 +31,30 @@ Crime doesn’t sleep, and it definitely has a schedule. By plotting the frequen
 <div style="text-align: center; max-width: 100%; margin: auto;">
   <iframe src="my_bokeh_plot.html" width="100%" height="320" frameborder="0"></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
-    Figure 2: The most likely times of the day throughout the week to run into trouble in San Francisco, based on event data from SF police department from 2003 to 2024. Further, one can interactively choose specific time intervals. Note: Each bar (representing a weekday) sums to a proportion of 1, meaning the figure displays the hourly distribution of crimes for each day of the week. This implies that the values represent the relative frequency of crimes per time interval, not the total number of crimes per day
+    Figure 2: The most likely times of the day throughout the week to run into trouble in San Francisco, based on event data from SF police department from 2003 to 2024. Further, one can interactively choose specific time intervals. Note: Each bar represents a single day of the week and is normalized to sum to 1, showing the proportion of crimes occurring in each 4-hour time interval (not total crime counts).
   </p>
 </div> 
-Late-night hours, especially from Friday evening through early Sunday morning, we see a noticeable spike in these violent crimes. This pattern points to a strong link between nightlife activity and criminal behavior. So be extra careful when going out in town during the weekend when the streets can get dangerous. However, in what district should you keep an extra eye? This will be explored further in the next plot. 
+
+Late-night hours, especially from Friday evening through early Sunday morning, we see a noticeably higher acticity of crime incidents. This pattern points to a strong link between presumably nightlife activity and criminal behavior. So be extra careful when going out in town during the weekend when the streets can get dangerous. However, in what district should you keep an extra eye? This will be explored further in the next plot. 
 
 
 # Which SF District Turns Into a Crime Scene After Dark?
-So do you want to stay safe from crimes and potentially getting your wallet robbed in San Fransisco? Best to stay at home! No don't worry, we have constructed a dynamic heatmap throughout the years (2003-2024) that shows where most of the reported incidents for these crimetypes occur in San Fransisco. Due to the insights from the previous visualization, the heatmap only considers weekend nights (Friday and Saturday) between 8 PM and 4 AM. 
+So do you want to stay safe from crimes and from potentially getting your wallet robbed in San Fransisco? Best to stay at home! No don't worry, we have constructed a dynamic heatmap throughout the years (2003-2024) that shows where most of the reported incidents for these crimetypes occur in San Fransisco. Due to the insights from the previous visualization, the heatmap only considers weekend nights (Friday and Saturday) between 8 PM and 4 AM. 
 <!-- Interactive Crime Map Figure -->
 <div style="text-align: center; max-width: 100%; margin: auto;">
-  <iframe src="crime_map_weekend.html" width="100%" height="615" frameborder="0" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+  <iframe src="crime_map_weekend.html" width="100%" height="620" frameborder="0" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
     Figure 3: Distribution of aggregated Assault, Robbery, and Weapon law incidents occurring on Friday and Saturday nights (8 PM - 4 AM) in San Francisco, based on reported data from 2003 to 2024.
   </p>
 </div>
 
-So what does the heatmap show us? If you are willing to take the risk, the vibrant districts Mission and Southern is home to [dense nightlife and vibrant bars](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm). However, also home to the consistently highest counts of assaults, robberies and weapon law crimes throughout the years. Meanwhile, Richmond and Sunset districts sleep soundly under a blanket of low crime, their suburban calm rarely disturbed and known for a [family friendly environment](https://thecityguards.com/safest-neighborhoods-in-san-francisco-your-guide-to-secure-living/).
+So what does the heatmap show us? If you are willing to take the risk, the rumour goes that the vibrant districts Mission and Southern is the place to be and home to [dense nightlife and vibrant bars](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm). However, these districts also house the consistently highest counts of assaults, robberies and weapon law crimes throughout the years. Meanwhile, Richmond and Sunset districts sleep soundly under a blanket of low crime, green parks and a suburban calm known for being a [family friendly environment](https://thecityguards.com/safest-neighborhoods-in-san-francisco-your-guide-to-secure-living/). However, if you stuck around the animation till 2024, you will see that the crimes in Mission and Southern actually were reduced to half compared to their maximum tracked record. The city in general experienced a [drop in violent crimes](https://www.axios.com/local/san-francisco/2025/02/24/sf-homicides-robberies-assaults-2024-decline) in 2024 So maybe, go ahead and grab that drink in the buzzing city center of San Fransisco — the numbers say it's safer now than it’s been in years. Just toast responsibly!
 
 # Crime-clusion
 Our crime crawl through San Francisco uncovers a city where criminal activity peaks during prime nightlife hours. Robbery, Assault, and Weapon Law incidents aren’t just happening — they’re happening together, and they’re happening on a schedule. Late-night weekend hours, especially from Friday evening into early Sunday morning, emerge as a prime time for trouble, aligning with the city’s nightlife rhythm. 
 The correlation between these crime types suggests they share more than just the streets — they share timing and perhaps even causes, making it reasonable to analyze them as a collective group. And when it comes to location, the Mission and Southern districts steal the spotlight, consistently showing higher arrest reports.
 So, if you're planning a late-night stroll through San Francisco, you might want to keep an eye on the clock — and maybe steer clear of certain neighborhoods once the weekend lights go down. 
+However, if the city continues in the same declining track as in 2024, maybe you don't need to worry at all! 
 
 
 ## References & Sources
@@ -61,6 +63,8 @@ So, if you're planning a late-night stroll through San Francisco, you might want
 [San Fransisco Night Life](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm). Accessed 31st of March 2025
 
 [Safest Neighborhoods in San Fransisco](https://thecityguards.com/safest-neighborhoods-in-san-francisco-your-guide-to-secure-living/). Accessed 31st of March 2025
+
+[2024 Drop in San Fransisco Crimes] (https://www.axios.com/local/san-francisco/2025/02/24/sf-homicides-robberies-assaults-2024-decline) Accessed 31st of March 2025
 
 ## Contribution
 Every member contributed equally.
