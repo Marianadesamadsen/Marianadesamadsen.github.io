@@ -64,7 +64,7 @@ However, if the city continues in the same declining track as in 2024, maybe you
 
 [Safest Neighborhoods in San Fransisco](https://thecityguards.com/safest-neighborhoods-in-san-francisco-your-guide-to-secure-living/). Accessed 31st of March 2025
 
-[2024 Drop in San Fransisco Crimes] (https://www.axios.com/local/san-francisco/2025/02/24/sf-homicides-robberies-assaults-2024-decline) Accessed 31st of March 2025
+[2024 Drop in San Fransisco Crimes](https://www.axios.com/local/san-francisco/2025/02/24/sf-homicides-robberies-assaults-2024-decline) Accessed 31st of March 2025
 
 ## Contribution
 Every member contributed equally.
