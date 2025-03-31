@@ -36,7 +36,7 @@ Crime doesn’t sleep, and it definitely has a schedule. By plotting the frequen
 Late-night hours, especially from Friday evening through early Sunday morning, we see a noticeable spike in these violent crimes. This pattern points to a strong link between nightlife activity and criminal behavior. So be extra careful when going out in town during the weekend when the streets can get dangerous. However, in what district should you keep an extra eye? This will be explored further in the next plot. 
 
 # Which SF District Turns Into a Crime Scene After Dark?
-So you want to stay safe from crimes and potentially getting your wallet robbed in San Fransisco? Best to stay at home! No don't worry, we have constructed a dynamic heatmap throughout the years (2003-2024) that shows where most of the reported incidents for these crimetypes occur in San Fransisco. Due to the insights from the previous visualization, the heatmap only considers weekend nights (Friday and Saturday) between 8 PM and 4 AM. 
+So do you want to stay safe from crimes and potentially getting your wallet robbed in San Fransisco? Best to stay at home! No don't worry, we have constructed a dynamic heatmap throughout the years (2003-2024) that shows where most of the reported incidents for these crimetypes occur in San Fransisco. Due to the insights from the previous visualization, the heatmap only considers weekend nights (Friday and Saturday) between 8 PM and 4 AM. 
 <!-- Interactive Crime Map Figure -->
 <div style="text-align: center; margin-top: 30px;">
   <iframe 
@@ -51,8 +51,8 @@ So you want to stay safe from crimes and potentially getting your wallet robbed 
 </div>
 So what does the heatmap show us? If you are willing to take the risk, the vibrant districts Mission and Southern is home to [dense nightlife and vibrant bars](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm). However, also home to the consistently highest counts of assaults, robberies and weapon law crimes throughout the years. Meanwhile, Richmond and Sunset districts sleep soundly under a blanket of low crime, their suburban calm rarely disturbed and known for a [family friendly environment](https://sanfranciscodrinksguide.com/en/blog/where-to-drink-93/bars-98/bar-hopping-in-the-mission-district-90.htm)
 
-# Crime-clusion - The City’s Late-Night Crime Code:
-Our crime crawl through San Francisco reveals a city with a clockwork of criminal activity. Robbery, Assault, and Weapon Law violations aren’t just happening — they’re happening together, and they’re happening on a schedule. Late-night weekend hours, especially from Friday evening into early Sunday morning, emerge as a prime time for trouble, aligning with the city’s nightlife rhythm.
+# Crime-clusion
+Our crime crawl through San Francisco uncovers a city where criminal activity peaks during prime nightlife hours. Robbery, Assault, and Weapon Law incidents aren’t just happening — they’re happening together, and they’re happening on a schedule. Late-night weekend hours, especially from Friday evening into early Sunday morning, emerge as a prime time for trouble, aligning with the city’s nightlife rhythm. 
 The correlation between these crime types suggests they share more than just the streets — they share timing and perhaps even causes, making it reasonable to analyze them as a collective group. And when it comes to location, the Mission and Southern districts steal the spotlight, consistently showing higher arrest counts during these high-risk hours.
 So, if you're planning a late-night stroll through San Francisco, you might want to keep an eye on the clock — and maybe steer clear of certain neighborhoods once the weekend lights go down. 
 
