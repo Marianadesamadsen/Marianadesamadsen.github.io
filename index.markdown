@@ -3,8 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: 'Assignment 2: 
-title: The San Fransisco crime crawl – Where Data Meets Drama!'
+title: 'Assignment 2: The San Fransisco crime crawl – Where Data Meets Drama!'
 ---
 
 # Data Description:
