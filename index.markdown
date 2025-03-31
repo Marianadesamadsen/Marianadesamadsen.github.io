@@ -53,7 +53,7 @@ So what does the heatmap show us? If you are willing to take the risk, the vibra
 
 # Crime-clusion
 Our crime crawl through San Francisco uncovers a city where criminal activity peaks during prime nightlife hours. Robbery, Assault, and Weapon Law incidents aren’t just happening — they’re happening together, and they’re happening on a schedule. Late-night weekend hours, especially from Friday evening into early Sunday morning, emerge as a prime time for trouble, aligning with the city’s nightlife rhythm. 
-The correlation between these crime types suggests they share more than just the streets — they share timing and perhaps even causes, making it reasonable to analyze them as a collective group. And when it comes to location, the Mission and Southern districts steal the spotlight, consistently showing higher arrest counts during these high-risk hours.
+The correlation between these crime types suggests they share more than just the streets — they share timing and perhaps even causes, making it reasonable to analyze them as a collective group. And when it comes to location, the Mission and Southern districts steal the spotlight, consistently showing higher arrest reports.
 So, if you're planning a late-night stroll through San Francisco, you might want to keep an eye on the clock — and maybe steer clear of certain neighborhoods once the weekend lights go down. 
 
 
