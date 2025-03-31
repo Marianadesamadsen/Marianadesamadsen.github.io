@@ -36,11 +36,16 @@ supporting the assumption that they can be reasonably combined into a single cat
 
 # Which SF District Turns Into a Crime Scene After Dark?
 So you want to stay safe from violent crimes happening in san fransisco? We have constructed a heatmap that shows where most of the arrests for these violent crimetypes happens in san fransisco. We have filtered the data according to what we noticed in our previous plot that showed that these types of crimes usually happen on weekend nights between 20 am and 4 pm.
-<!-- Crime Map Figure -->
+<!-- Interactive Crime Map Figure -->
 <div style="text-align: center; margin-top: 30px;">
-  <img src="crime_map.png" width="150%" />
+  <iframe 
+    src="crime_map_weekend.html"
+    width="100%" 
+    height="800px" 
+    frameborder="0"
+  ></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
-    Figure 3: Distribution of assault, robbery, and weapon law incidents occurring on friday and saturday nights between 20 pm and 4 am in San Francisco. The data is based on reported police data from 2003 to 2024.
+    Figure 3: Distribution of normalized assault, robbery, and weapon law incidents occurring on Friday and Saturday nights in San Francisco, based on reported data from 2003 to 2024.
   </p>
 </div>
 We notice on the map of the crime data distribution that most of the reported arrests for our focused crime types happens in the Mission district and Southern District. The weekend nights dont differ much, only that criminals have a bit more time to commit violent crimes on saturday.
