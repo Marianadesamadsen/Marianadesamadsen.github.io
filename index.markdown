@@ -41,7 +41,7 @@ Late-night hours, especially from Friday evening through early Sunday morning, w
 So do you want to stay safe from crimes and potentially getting your wallet robbed in San Fransisco? Best to stay at home! No don't worry, we have constructed a dynamic heatmap throughout the years (2003-2024) that shows where most of the reported incidents for these crimetypes occur in San Fransisco. Due to the insights from the previous visualization, the heatmap only considers weekend nights (Friday and Saturday) between 8 PM and 4 AM. 
 <!-- Interactive Crime Map Figure -->
 <div style="text-align: center; max-width: 100%; margin: auto;">
-  <iframe src="crime_map_weekend.html" width="100%" height="600" frameborder="0" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+  <iframe src="crime_map_weekend.html" width="100%" height="615" frameborder="0" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
     Figure 3: Distribution of aggregated Assault, Robbery, and Weapon law incidents occurring on Friday and Saturday nights (8 PM - 4 AM) in San Francisco, based on reported data from 2003 to 2024.
   </p>
