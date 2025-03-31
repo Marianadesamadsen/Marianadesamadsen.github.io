@@ -26,16 +26,16 @@ This visualization supports the assumption that the three crime categories are s
 
 
 # When Does the City Get Sketchy?
-Crime doesn’t sleep, and it definitely has a schedule. By plotting the frequency of robbery, assault, and weapon Law violations across all 168 hours in a week, we uncover timeframes where you could be more likely to run into trouble. In the interactive figure below, you can explore specific time slots, revealing when crimes happen most often.
+Crime doesn’t sleep, and it definitely has a schedule. By plotting the frequency of robbery, assault, and weapon Law violations across all 168 hours in a week, we uncover timeframes where you could be more likely to run into trouble. In the interactive figure below, you can explore specific time slots, revealing when crimes happen most often. 
+
 <div style="text-align: center; max-width: 100%; margin: auto;">
   <iframe src="my_bokeh_plot.html" width="100%" height="320" frameborder="0"></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
-    Figure 1: The most likely times of the day throughout the week to find your drunk friend in San Francisco based on aggregated event data. Further, one can interactivelt choose specific time intervals.
+    Figure 2: The most likely times of the day throughout the week to run into trouble in San Francisco, based on event data from SF police department from 2003 to 2024. Further, one can interactively choose specific time intervals. Note: Each bar (representing a weekday) sums to a proportion of 1, meaning the figure displays the hourly distribution of crimes for each day of the week. This implies that the values represent the relative frequency of crimes per time interval, not the total number of crimes per day
   </p>
 </div> 
 Late-night hours, especially from Friday evening through early Sunday morning, we see a noticeable spike in these violent crimes. This pattern points to a strong link between nightlife activity and criminal behavior. So be extra careful when going out in town during the weekend when the streets can get dangerous. However, in what district should you keep an extra eye? This will be explored further in the next plot. 
 
-Moreover, that the plot only shows the distributions, meaning that we cannot interpret the values as counts but as proportions.  
 
 # Which SF District Turns Into a Crime Scene After Dark?
 So do you want to stay safe from crimes and potentially getting your wallet robbed in San Fransisco? Best to stay at home! No don't worry, we have constructed a dynamic heatmap throughout the years (2003-2024) that shows where most of the reported incidents for these crimetypes occur in San Fransisco. Due to the insights from the previous visualization, the heatmap only considers weekend nights (Friday and Saturday) between 8 PM and 4 AM. 
