@@ -62,3 +62,6 @@ So, if you're planning a late-night stroll through San Francisco, you might want
 
 [Safest Neighborhoods in San Fransisco](https://thecityguards.com/safest-neighborhoods-in-san-francisco-your-guide-to-secure-living/). Accessed 31st of March 2025
 
+## Contribution
+Every member contributed equally.
+
