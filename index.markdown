@@ -28,7 +28,7 @@ This visualization supports the assumption that the three crime categories are s
 # When Does the City Get Sketchy?
 Crime doesn’t sleep, and it definitely has a schedule. By plotting the frequency of robbery, assault, and weapon Law violations across all 168 hours in a week, we uncover timeframes where you could be more likely to run into trouble. In the interactive figure below, you can explore specific time slots, revealing when crimes happen most often.
 <div style="text-align: center;">
-  <iframe src="my_bokeh_plot.html" width="100%" height="320" frameborder="0"></iframe>
+  <iframe src="my_bokeh_plot.html" width="150%" height="420" frameborder="0"></iframe>
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
     Figure 1: The most likely times of the day throughout the week to find your drunk friend in San Francisco based on aggregated event data. Further, one can interactivelt choose specific time intervals.
   </p>
@@ -44,7 +44,7 @@ So do you want to stay safe from crimes and potentially getting your wallet robb
     width="100%" 
     height="800px" 
     frameborder="0"
-  ></iframe>
+  >
   <p style="font-style: italic; font-size: 0.9em; color: gray;">
     Figure 3: Distribution of aggregated Assault, Robbery, and Weapon law incidents occurring on Friday and Saturday nights (8 PM - 4 AM) in San Francisco, based on reported data from 2003 to 2024.
   </p>
